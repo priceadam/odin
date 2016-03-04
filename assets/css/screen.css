@@ -1165,6 +1165,7 @@ body:not(.post-template) .post-title {
 .post-footer .share {
     position: static;
     width: auto;
+    text-align: center;
 }
 
 .post-footer .share a {
