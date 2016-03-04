@@ -1163,9 +1163,8 @@ body:not(.post-template) .post-title {
 }
 
 .post-footer .share {
-    position: absolute;
-    top: 6rem;
-    width: 140px;
+    position: static;
+    width: auto;
 }
 
 .post-footer .share a {
