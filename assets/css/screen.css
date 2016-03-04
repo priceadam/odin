@@ -1135,6 +1135,12 @@ body:not(.post-template) .post-title {
     line-height: 1.75em;
 }
 
+.post-footer .author {
+    margin: 0 0 2rem 0;
+    padding: 0 0 1.6rem 0;
+    border-bottom: #EBF2F6 1px dashed;
+}
+
 /* list of author links - location / url */
 .author-meta {
     padding: 0;
