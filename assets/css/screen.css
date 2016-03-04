@@ -1153,11 +1153,6 @@ body:not(.post-template) .post-title {
     color: #111;
 }
 
-/* Create some space to the right for the share links */
-.post-footer .author {
-    margin-right: 180px;
-}
-
 .post-footer h4 a {
     color: #2e2e2e;
     text-decoration: none;
@@ -1167,14 +1162,9 @@ body:not(.post-template) .post-title {
     text-decoration: underline;
 }
 
-/* Drop the share links in the space to the right.
-   Doing it like this means it's easier for the author bio
-   to be flexible at smaller screen sizes while the share
-   links remain at a fixed width the whole time */
 .post-footer .share {
     position: absolute;
     top: 6rem;
-    right: 0;
     width: 140px;
 }
 
